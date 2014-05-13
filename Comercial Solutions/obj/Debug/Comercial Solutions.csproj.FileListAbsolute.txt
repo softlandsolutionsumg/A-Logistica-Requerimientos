@@ -1,0 +1,48 @@
+C:\Users\3nR\Documents\Visual Studio 2013\Projects\Comercial Solutions\Comercial Solutions\bin\Debug\Comercial Solutions.exe.config
+C:\Users\3nR\Documents\Visual Studio 2013\Projects\Comercial Solutions\Comercial Solutions\bin\Debug\Comercial Solutions.exe
+C:\Users\3nR\Documents\Visual Studio 2013\Projects\Comercial Solutions\Comercial Solutions\bin\Debug\Comercial Solutions.pdb
+C:\Users\3nR\Documents\Visual Studio 2013\Projects\Comercial Solutions\Comercial Solutions\bin\Debug\i3nRiqJSON.dll
+C:\Users\3nR\Documents\Visual Studio 2013\Projects\Comercial Solutions\Comercial Solutions\bin\Debug\i3nRiqJSON.pdb
+C:\Users\3nR\Documents\Visual Studio 2013\Projects\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial Solutions.csprojResolveAssemblyReference.cache
+C:\Users\3nR\Documents\Visual Studio 2013\Projects\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Form1.resources
+C:\Users\3nR\Documents\Visual Studio 2013\Projects\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.beta3.resources
+C:\Users\3nR\Documents\Visual Studio 2013\Projects\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Principal.frm_login.resources
+C:\Users\3nR\Documents\Visual Studio 2013\Projects\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Principal.frm_mdi.resources
+C:\Users\3nR\Documents\Visual Studio 2013\Projects\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.beta1.resources
+C:\Users\3nR\Documents\Visual Studio 2013\Projects\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.beta2.resources
+C:\Users\3nR\Documents\Visual Studio 2013\Projects\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Seguridad.frm_Menu_Asignacion_permisos.resources
+C:\Users\3nR\Documents\Visual Studio 2013\Projects\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Properties.Resources.resources
+C:\Users\3nR\Documents\Visual Studio 2013\Projects\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial Solutions.csproj.GenerateResource.Cache
+C:\Users\3nR\Documents\Visual Studio 2013\Projects\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial Solutions.exe
+C:\Users\3nR\Documents\Visual Studio 2013\Projects\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial Solutions.pdb
+C:\Users\3nR\Documents\GitHub\Comercial Solutions\Comercial Solutions\bin\Debug\Comercial Solutions.exe.config
+C:\Users\3nR\Documents\GitHub\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial Solutions.exe
+C:\Users\3nR\Documents\GitHub\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial Solutions.pdb
+C:\Users\3nR\Documents\GitHub\Comercial Solutions\Comercial Solutions\bin\Debug\Comercial Solutions.exe
+C:\Users\3nR\Documents\GitHub\Comercial Solutions\Comercial Solutions\bin\Debug\Comercial Solutions.pdb
+C:\Users\3nR\Documents\GitHub\Comercial Solutions\Comercial Solutions\bin\Debug\i3nRiqJSON.pdb
+C:\Users\3nR\Documents\GitHub\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial Solutions.csprojResolveAssemblyReference.cache
+C:\Users\3nR\Documents\GitHub\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.beta3.resources
+C:\Users\3nR\Documents\GitHub\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Principal.frm_login.resources
+C:\Users\3nR\Documents\GitHub\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Principal.frm_mdi.resources
+C:\Users\3nR\Documents\GitHub\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.beta1.resources
+C:\Users\3nR\Documents\GitHub\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.beta2.resources
+C:\Users\3nR\Documents\GitHub\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Seguridad.frm_Menu_Asignacion_permisos.resources
+C:\Users\3nR\Documents\GitHub\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Properties.Resources.resources
+C:\Users\3nR\Documents\GitHub\Comercial Solutions\Comercial Solutions\obj\Debug\Comercial Solutions.csproj.GenerateResource.Cache
+C:\Users\3nR\Documents\GitHub\CSolutions\Comercial Solutions\obj\Debug\Comercial Solutions.exe
+C:\Users\3nR\Documents\GitHub\CSolutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.beta3.resources
+C:\Users\3nR\Documents\GitHub\CSolutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Principal.frm_login.resources
+C:\Users\3nR\Documents\GitHub\CSolutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Principal.frm_mdi.resources
+C:\Users\3nR\Documents\GitHub\CSolutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.beta1.resources
+C:\Users\3nR\Documents\GitHub\CSolutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.beta2.resources
+C:\Users\3nR\Documents\GitHub\CSolutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Seguridad.frm_Menu_Asignacion_permisos.resources
+C:\Users\3nR\Documents\GitHub\CSolutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Seguridad.frm_Menu_crear_permiso_rol.resources
+C:\Users\3nR\Documents\GitHub\CSolutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Properties.Resources.resources
+C:\Users\3nR\Documents\GitHub\CSolutions\Comercial Solutions\obj\Debug\Comercial Solutions.csproj.GenerateResource.Cache
+C:\Users\3nR\Documents\GitHub\CSolutions\Comercial Solutions\obj\Debug\Comercial Solutions.pdb
+C:\Users\3nR\Documents\GitHub\CSolutions\Comercial Solutions\bin\Debug\Comercial Solutions.exe.config
+C:\Users\3nR\Documents\GitHub\CSolutions\Comercial Solutions\bin\Debug\Comercial Solutions.exe
+C:\Users\3nR\Documents\GitHub\CSolutions\Comercial Solutions\bin\Debug\Comercial Solutions.pdb
+C:\Users\3nR\Documents\GitHub\CSolutions\Comercial Solutions\obj\Debug\Comercial Solutions.csprojResolveAssemblyReference.cache
+C:\Users\3nR\Documents\GitHub\CSolutions\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Seguridad.frm_Menu_aplicacion.resources

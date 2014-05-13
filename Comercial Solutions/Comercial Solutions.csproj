@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D65C740B-9A75-4506-95CA-BBA5B2850A1C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Comercial_Solutions</RootNamespace>
+    <AssemblyName>Comercial Solutions</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\solologo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="i3nRiqJSON">
+      <HintPath>..\..\i3nRiqJSON\i3nRiqJSON\bin\Debug\i3nRiqJSON.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\Propp.cs" />
+    <Compile Include="Forms\Areas\Logistica\beta3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Areas\Logistica\beta3.designer.cs">
+      <DependentUpon>beta3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Principal\frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Principal\frm_login.designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Principal\frm_mdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Principal\frm_mdi.designer.cs">
+      <DependentUpon>frm_mdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Areas\Logistica\beta1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Areas\Logistica\beta1.designer.cs">
+      <DependentUpon>beta1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Areas\Logistica\beta2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Areas\Logistica\beta2.designer.cs">
+      <DependentUpon>beta2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Seguridad\frm_Menu_aplicacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Seguridad\frm_Menu_aplicacion.designer.cs">
+      <DependentUpon>frm_Menu_aplicacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Seguridad\frm_Menu_Asignacion_permisos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Seguridad\frm_Menu_Asignacion_permisos.designer.cs">
+      <DependentUpon>frm_Menu_Asignacion_permisos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Seguridad\frm_Menu_crear_permiso_rol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Seguridad\frm_Menu_crear_permiso_rol.designer.cs">
+      <DependentUpon>frm_Menu_crear_permiso_rol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Areas\Logistica\beta3.resx">
+      <DependentUpon>beta3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Principal\frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Principal\frm_mdi.resx">
+      <DependentUpon>frm_mdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Areas\Logistica\beta1.resx">
+      <DependentUpon>beta1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Areas\Logistica\beta2.resx">
+      <DependentUpon>beta2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Seguridad\frm_Menu_aplicacion.resx">
+      <DependentUpon>frm_Menu_aplicacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Seguridad\frm_Menu_Asignacion_permisos.resx">
+      <DependentUpon>frm_Menu_Asignacion_permisos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Seguridad\frm_Menu_crear_permiso_rol.resx">
+      <DependentUpon>frm_Menu_crear_permiso_rol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Forms\Areas\Compras\" />
+    <Folder Include="Forms\Areas\Finanzas\" />
+    <Folder Include="Forms\Areas\RRHH\" />
+    <Folder Include="Forms\Areas\Ventas\" />
+    <Folder Include="Forms\Pruebas\" />
+    <Folder Include="Recursos\bmp\" />
+    <Folder Include="Recursos\dll\" />
+    <Folder Include="Recursos\ico\" />
+    <Folder Include="Recursos\jpg\" />
+    <Folder Include="Recursos\mp3\" />
+    <Folder Include="Recursos\png\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\305.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla %2835%29_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\herramienta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ingresar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inicio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOADp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-form.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO FINAL - sin fondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menugris.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solologo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\submenugris2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\112926-1366x768.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basecircle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favs.addto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\overflowdots.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questionmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\share.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\video.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2815%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2816%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2817%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2818%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2819%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2820%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2821%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2822%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2823%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2824%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2825%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2826%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2827%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2828%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2829%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2830%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2831%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2832%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d %2833%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
