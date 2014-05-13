@@ -58,6 +58,12 @@
     <Compile Include="Forms\Areas\Logistica\beta3.designer.cs">
       <DependentUpon>beta3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Areas\Logistica\frm_manejoincidente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Areas\Logistica\frm_manejoincidente.Designer.cs">
+      <DependentUpon>frm_manejoincidente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Principal\frm_login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\Areas\Logistica\beta3.resx">
       <DependentUpon>beta3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Areas\Logistica\frm_manejoincidente.resx">
+      <DependentUpon>frm_manejoincidente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Principal\frm_login.resx">
       <DependentUpon>frm_login.cs</DependentUpon>
@@ -410,6 +419,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\d %2833%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solologo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
