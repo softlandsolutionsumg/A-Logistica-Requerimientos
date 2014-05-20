@@ -58,6 +58,12 @@
     <Compile Include="Forms\Areas\Logistica\beta3.designer.cs">
       <DependentUpon>beta3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Areas\Logistica\frm_eliminarmanejoincidente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Areas\Logistica\frm_eliminarmanejoincidente.Designer.cs">
+      <DependentUpon>frm_eliminarmanejoincidente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Areas\Logistica\frm_manejoincidente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\Areas\Logistica\beta3.resx">
       <DependentUpon>beta3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Areas\Logistica\frm_eliminarmanejoincidente.resx">
+      <DependentUpon>frm_eliminarmanejoincidente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Areas\Logistica\frm_manejoincidente.resx">
       <DependentUpon>frm_manejoincidente.cs</DependentUpon>

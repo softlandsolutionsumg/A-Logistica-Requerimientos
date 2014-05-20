@@ -16,6 +16,7 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
     {
         int X = 0;
         int Y = 0;
+        string ABC;
         public frm_manejoincidente()
         {
             X = Propp.X;
@@ -26,8 +27,26 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
 
         private void frm_manejoincidente_Load(object sender, EventArgs e)
         {
+            txtfecha.Text = DateTime.Now.ToString("dd/MM/yyyy"); 
             this.Size = new Size(X, Y);
             this.Location = new Point(250, 56);
+            i3nRiqJson x = new i3nRiqJson();
+            i3nRiqJson x2 = new i3nRiqJson();
+
+
+            string query = "SELECT idtbm_empleado,nombre_empleado FROM tbm_empleado";
+            comboBox1.DataSource = ((x2.consulta_DataGridView(query)));
+            comboBox1.ValueMember = "idtbm_empleado";
+            comboBox1.DisplayMember = "nombre_empleado";
+            string query2 = "select nombre,departamento,tipo_incidente,comentario,fecha from incidente";
+            dataGridView1.DataSource = ((x.consulta_DataGridView(query2)));
+
+
+
+            
+
+           
+          
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -42,6 +61,7 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
+        
             if ((txtnombre.Text.Equals("")) || (txtdepartamento.Text.Equals("")))
             {
 
@@ -57,11 +77,32 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
                 dict.Add("tipo_incidente", txttipoincidente.Text);
                 dict.Add("comentario", txtcomentario.Text);
                 dict.Add("fecha", txtfecha.Text);
-                dict.Add("tbm_empleado_idtbm_empleado", "1");
 
-                //
+                i3nRiqJson x4 = new i3nRiqJson();
+                string query4 = "select idtbm_empleado from tbm_empleado where nombre_empleado='" + comboBox1.Text + "'";
+                System.Collections.ArrayList array = x4.consultar(query4);
+
+
+              
+                foreach (Dictionary<string, string> dic in array)
+                {
+                  ABC=(dic["idtbm_empleado"] + "\n");
+                    // Console.WriteLine("VIENEN: "+dic["employee_name"]);
+            
+                }
+                dict.Add("tbm_empleado_idtbm_empleado", ABC);
+
+                
+
+
+                
                 i3nRiqJson x = new i3nRiqJson();
                 x.insertar("1", tabla, dict);
+
+               
+
+
+
                 MessageBox.Show("Datos Ingresados Exitosamente " + i3nRiqJson.RespuestaConexion.ToString());
             }
 
@@ -69,30 +110,53 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-
             i3nRiqJson x = new i3nRiqJson();
-            string query = "select nombre,departamento from incidente";
-            dataGridView1.DataSource = ((x.consulta_DataGridView(query))); 
+            
+
+            
 
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
+            frm_eliminarmanejoincidente x = new frm_eliminarmanejoincidente();
+            x.Show();
+
+            
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
             i3nRiqJson x = new i3nRiqJson();
-
-
-                       string query = txtnombre.Text;
+            string query = "select 	idtbm_empleado from tbm_empleado where nombre_empleado='" + comboBox1.Text + "'";
             System.Collections.ArrayList array = x.consultar(query);
 
-                        foreach (Dictionary<string, string> dic in array)
-            {
-                textBox1.AppendText(dic["Idtbm_incidente"] + "\n");
-                // Console.WriteLine("VIENEN: "+dic["employee_name"]);
-            }
-            string tabla = "incidente";
-            string condicion = "Idtbm_incidente	=" +textBox1.Text;
 
-            x.eliminar("4", tabla, condicion);
+
+            foreach(Dictionary<string,string> dic in array){
+                textBox1.AppendText(dic["idtbm_empleado"] + "\n");
+               // Console.WriteLine("VIENEN: "+dic["employee_name"]);
+
+            }
+
+                }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            i3nRiqJson x = new i3nRiqJson();
+            string query2 = "select nombre,departamento,tipo_incidente,comentario,fecha from incidente";
+            dataGridView1.DataSource = ((x.consulta_DataGridView(query2)));
         }
-    }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
 }
+}
+   

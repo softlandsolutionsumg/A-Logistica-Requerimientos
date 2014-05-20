@@ -63,3 +63,4 @@ C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solution
 C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Seguridad.frm_Menu_crear_permiso_rol.resources
 C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial_Solutions.Properties.Resources.resources
 C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial Solutions.csproj.GenerateResource.Cache
+C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.frm_eliminarmanejoincidente.resources

@@ -30,7 +30,6 @@
         {
             this.txtnombre = new System.Windows.Forms.TextBox();
             this.txtcomentario = new System.Windows.Forms.TextBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtfecha = new System.Windows.Forms.TextBox();
             this.txtdepartamento = new System.Windows.Forms.TextBox();
@@ -41,23 +40,28 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtnombre
@@ -75,19 +79,6 @@
             this.txtcomentario.Size = new System.Drawing.Size(732, 77);
             this.txtcomentario.TabIndex = 5;
             // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox6.Image = global::Comercial_Solutions.Properties.Resources.back;
-            this.pictureBox6.Location = new System.Drawing.Point(16, 27);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(27, 25);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 26;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.Tag = "1";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -102,7 +93,7 @@
             // 
             // txtfecha
             // 
-            this.txtfecha.Location = new System.Drawing.Point(393, 28);
+            this.txtfecha.Location = new System.Drawing.Point(400, 28);
             this.txtfecha.Name = "txtfecha";
             this.txtfecha.Size = new System.Drawing.Size(125, 22);
             this.txtfecha.TabIndex = 4;
@@ -160,7 +151,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(397, 8);
+            this.label6.Location = new System.Drawing.Point(429, 8);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(47, 17);
             this.label6.TabIndex = 35;
@@ -169,7 +160,9 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.LemonChiffon;
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.dataGridView1);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label5);
@@ -185,10 +178,30 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(763, 330);
             this.panel1.TabIndex = 36;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(531, 28);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 24);
+            this.comboBox1.TabIndex = 40;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(10, 156);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(732, 152);
+            this.dataGridView1.TabIndex = 38;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.pictureBox5);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.pictureBox3);
@@ -197,6 +210,65 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(763, 79);
             this.panel2.TabIndex = 37;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(531, 8);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(71, 17);
+            this.label9.TabIndex = 38;
+            this.label9.Text = "Empleado";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(658, 28);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 22);
+            this.textBox2.TabIndex = 42;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(543, 8);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(190, 52);
+            this.textBox1.TabIndex = 42;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(611, 27);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 24);
+            this.comboBox2.TabIndex = 38;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox6.Image = global::Comercial_Solutions.Properties.Resources.back;
+            this.pictureBox6.Location = new System.Drawing.Point(16, 27);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(27, 25);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 26;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Tag = "1";
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = global::Comercial_Solutions.Properties.Resources.refresh;
+            this.pictureBox2.Location = new System.Drawing.Point(393, 8);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(67, 62);
+            this.pictureBox2.TabIndex = 41;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Tag = "5";
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox5
             // 
@@ -209,6 +281,7 @@
             this.pictureBox5.TabIndex = 38;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Tag = "2";
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox1
             // 
@@ -249,59 +322,33 @@
             this.pictureBox4.Tag = "5";
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::Comercial_Solutions.Properties.Resources.solologo;
-            this.pictureBox2.Location = new System.Drawing.Point(392, 19);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(51, 54);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 42;
-            this.pictureBox2.TabStop = false;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(10, 156);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(732, 152);
-            this.dataGridView1.TabIndex = 38;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(642, 9);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 39;
-            // 
             // frm_manejoincidente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(761, 506);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frm_manejoincidente";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.frm_manejoincidente_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -327,8 +374,12 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox comboBox2;
     }
 }

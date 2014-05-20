@@ -47,10 +47,10 @@
             this.txt_usuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(222)))), ((int)(((byte)(222)))));
             this.txt_usuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_usuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_usuario.Location = new System.Drawing.Point(357, 143);
-            this.txt_usuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_usuario.Location = new System.Drawing.Point(266, 113);
+            this.txt_usuario.Margin = new System.Windows.Forms.Padding(4);
             this.txt_usuario.Name = "txt_usuario";
-            this.txt_usuario.Size = new System.Drawing.Size(380, 30);
+            this.txt_usuario.Size = new System.Drawing.Size(297, 30);
             this.txt_usuario.TabIndex = 1;
             this.txt_usuario.Text = "ettumax";
             // 
@@ -60,7 +60,7 @@
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::Comercial_Solutions.Properties.Resources.s;
             this.pictureBox2.Location = new System.Drawing.Point(811, 336);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(71, 55);
             this.pictureBox2.TabIndex = 8;
@@ -82,8 +82,8 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Location = new System.Drawing.Point(715, 194);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(534, 161);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(41, 38);
             this.pictureBox1.TabIndex = 6;
@@ -94,11 +94,11 @@
             // 
             this.txt_contra.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_contra.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_contra.Location = new System.Drawing.Point(357, 203);
-            this.txt_contra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_contra.Location = new System.Drawing.Point(257, 161);
+            this.txt_contra.Margin = new System.Windows.Forms.Padding(4);
             this.txt_contra.Name = "txt_contra";
             this.txt_contra.PasswordChar = '●';
-            this.txt_contra.Size = new System.Drawing.Size(307, 30);
+            this.txt_contra.Size = new System.Drawing.Size(244, 30);
             this.txt_contra.TabIndex = 5;
             this.txt_contra.Text = "1010B390";
             // 
@@ -106,8 +106,8 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Location = new System.Drawing.Point(672, 194);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Location = new System.Drawing.Point(500, 161);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(35, 38);
             this.pictureBox3.TabIndex = 9;
@@ -129,7 +129,7 @@
             this.Controls.Add(this.txt_usuario);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frm_login";
             this.Opacity = 0.99D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
