@@ -58,17 +58,47 @@
     <Compile Include="Forms\Areas\Logistica\beta3.designer.cs">
       <DependentUpon>beta3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Areas\Logistica\frm_editarmanejoincidente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Areas\Logistica\frm_editarmanejoincidente.Designer.cs">
+      <DependentUpon>frm_editarmanejoincidente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Areas\Logistica\frm_eliminarempleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Areas\Logistica\frm_eliminarempleado.Designer.cs">
+      <DependentUpon>frm_eliminarempleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Areas\Logistica\frm_eliminarmanejoincidente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Areas\Logistica\frm_eliminarmanejoincidente.Designer.cs">
       <DependentUpon>frm_eliminarmanejoincidente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Areas\Logistica\frm_eliminarmanejosoporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Areas\Logistica\frm_eliminarmanejosoporte.Designer.cs">
+      <DependentUpon>frm_eliminarmanejosoporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Areas\Logistica\frm_empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Areas\Logistica\frm_empleado.Designer.cs">
+      <DependentUpon>frm_empleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Areas\Logistica\frm_manejoincidente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Areas\Logistica\frm_manejoincidente.Designer.cs">
       <DependentUpon>frm_manejoincidente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Areas\Logistica\frm_manejosoporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Areas\Logistica\frm_manejosoporte.Designer.cs">
+      <DependentUpon>frm_manejosoporte.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Principal\frm_login.cs">
       <SubType>Form</SubType>
@@ -117,11 +147,26 @@
     <EmbeddedResource Include="Forms\Areas\Logistica\beta3.resx">
       <DependentUpon>beta3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Areas\Logistica\frm_editarmanejoincidente.resx">
+      <DependentUpon>frm_editarmanejoincidente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Areas\Logistica\frm_eliminarempleado.resx">
+      <DependentUpon>frm_eliminarempleado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Areas\Logistica\frm_eliminarmanejoincidente.resx">
       <DependentUpon>frm_eliminarmanejoincidente.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Areas\Logistica\frm_eliminarmanejosoporte.resx">
+      <DependentUpon>frm_eliminarmanejosoporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Areas\Logistica\frm_empleado.resx">
+      <DependentUpon>frm_empleado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Areas\Logistica\frm_manejoincidente.resx">
       <DependentUpon>frm_manejoincidente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Areas\Logistica\frm_manejosoporte.resx">
+      <DependentUpon>frm_manejosoporte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Principal\frm_login.resx">
       <DependentUpon>frm_login.cs</DependentUpon>

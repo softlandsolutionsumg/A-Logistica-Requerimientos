@@ -20,8 +20,10 @@ namespace Comercial_Solutions
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-           Application.Run(new frm_login());
+          Application.Run(new frm_login());
             //Application.Run(new frm_manejoincidente());
+            //Application.Run(new frm_manejosoporte());
+            //Application.Run(new frm_empleado());
         }
     }
 }

@@ -53,7 +53,6 @@ C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solution
 C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\bin\Debug\Comercial Solutions.pdb
 C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial Solutions.csprojResolveAssemblyReference.cache
 C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.beta3.resources
-C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.frm_manejoincidente.resources
 C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Principal.frm_login.resources
 C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Principal.frm_mdi.resources
 C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.beta1.resources
@@ -64,3 +63,9 @@ C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solution
 C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial_Solutions.Properties.Resources.resources
 C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial Solutions.csproj.GenerateResource.Cache
 C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.frm_eliminarmanejoincidente.resources
+C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.frm_editarmanejoincidente.resources
+C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.frm_manejoincidente.resources
+C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.frm_manejosoporte.resources
+C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.frm_eliminarmanejosoporte.resources
+C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.frm_empleado.resources
+C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.frm_eliminarempleado.resources

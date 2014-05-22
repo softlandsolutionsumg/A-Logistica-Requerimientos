@@ -70,6 +70,8 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
             string condicion = "Idtbm_incidente=" + ABC;
 
             x.eliminar("4", tabla, condicion);
+            MessageBox.Show("datos eliminados correctamente");
+
 
         }
 
@@ -92,6 +94,26 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
             this.Dispose();
            
 
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
 
         }
     }
