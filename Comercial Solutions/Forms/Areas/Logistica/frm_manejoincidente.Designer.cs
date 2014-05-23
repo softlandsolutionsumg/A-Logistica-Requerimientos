@@ -31,7 +31,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.dtpfecha = new System.Windows.Forms.DateTimePicker();
             this.label9 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmb_empleado = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -86,13 +86,13 @@
             this.label9.TabIndex = 52;
             this.label9.Text = "Empleado";
             // 
-            // comboBox1
+            // cmb_empleado
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(617, 131);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 55;
+            this.cmb_empleado.FormattingEnabled = true;
+            this.cmb_empleado.Location = new System.Drawing.Point(617, 131);
+            this.cmb_empleado.Name = "cmb_empleado";
+            this.cmb_empleado.Size = new System.Drawing.Size(121, 24);
+            this.cmb_empleado.TabIndex = 55;
             // 
             // dataGridView1
             // 
@@ -265,7 +265,7 @@
             this.ClientSize = new System.Drawing.Size(741, 420);
             this.Controls.Add(this.dtpfecha);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmb_empleado);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -311,7 +311,7 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.DateTimePicker dtpfecha;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmb_empleado;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;

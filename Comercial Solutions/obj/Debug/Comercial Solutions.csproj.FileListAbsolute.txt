@@ -69,3 +69,5 @@ C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solution
 C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.frm_eliminarmanejosoporte.resources
 C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.frm_empleado.resources
 C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.frm_eliminarempleado.resources
+C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.frm_editarempleado.resources
+C:\Users\ototumax\Documents\GitHub\A-Logistica-Requerimientos\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Logistica.frm_editarmanejosoporte.resources

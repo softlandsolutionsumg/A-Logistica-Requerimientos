@@ -16,6 +16,8 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
     {
         String datos_empleado;
         String datos_incidente;
+        String datos_empleado2;
+        String datos_empleado3;
        
 
         public frm_editarmanejoincidente()
@@ -87,7 +89,7 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
             dict2.Add("tipo_incidente", txttipoincidente.Text);
             dict3.Add("comentario", txtcomentario.Text);
            dict4.Add("fecha", dtpfecha.Value.Date.ToString("yyy-MM-dd HH:mm"));
-            string condicion = "Idtbm_incidente= " + datos_incidente;
+            string condicion = "Idtbm_incidente= '" + datos_incidente +"'";
             x.actualizar("3", tabla, dict, condicion);
             x.actualizar("3", tabla, dict1, condicion);
             x.actualizar("3", tabla, dict2, condicion);
@@ -99,7 +101,7 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
 
 
               
-                foreach (Dictionary<string, string> dic in array)
+                foreach (Dictionary<string, string> dic in array2)
                 {
                   datos_empleado=(dic["idtbm_empleado"] + "\n");
                     // Console.WriteLine("VIENEN: "+dic["employee_name"]);
@@ -123,6 +125,37 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
             this.Dispose();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            i3nRiqJson x4 = new i3nRiqJson();
+            string query4 = "select nombre,departamento,tipo_incidente,comentario,fecha from incidente where nombre='" + comboBox1.Text + "'";
+            System.Collections.ArrayList array = x4.consultar(query4);
+
+
+
+            foreach (Dictionary<string, string> dic in array)
+            {
+                txtnombre.Text = (dic["nombre"]);
+                txtdepartamento.Text = (dic["departamento"]);
+                txttipoincidente.Text = (dic["tipo_incidente"]);
+                //comboBox2.Text = (dic["Salario_Empleado"]);
+                txtcomentario.Text = (dic["comentario"]);
+                dtpfecha.Text = (dic["fecha"]);
+               
+                // Console.WriteLine("VIENEN: "+dic["employee_name"]);
+
+            }
+
+           
+
+
+           
+
+          
+
+           
         }
     }
 }

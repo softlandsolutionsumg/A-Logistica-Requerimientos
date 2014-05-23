@@ -1,4 +1,14 @@
-﻿using System;
+﻿
+/***************************************************************
+NOMBRE:Formulario Manejo De Incidentes
+FECHA:22/05/2014
+CREADOR:Eduardo Otoniel Tumax Sulecio
+DESCRIPCIÓN:Realiza inserciones de incidentes nuevos.
+DETALLE:Contiene enlances para eliminar y editar incidentes.
+MODIFICACIÓN:22/05/2014
+***************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,22 +43,24 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
 
 
 
-            cargar();
+            cargarempleados();
+
+
 
 
            
           
         }
-        public void cargar()
+        public void cargarempleados()
             {
             i3nRiqJson x = new i3nRiqJson();
             i3nRiqJson x2 = new i3nRiqJson();
 
 
             string query = "SELECT idtbm_empleado,nombre_empleado FROM tbm_empleado";
-            comboBox1.DataSource = ((x2.consulta_DataGridView(query)));
-            comboBox1.ValueMember = "idtbm_empleado";
-            comboBox1.DisplayMember = "nombre_empleado";
+            cmb_empleado.DataSource = ((x2.consulta_DataGridView(query)));
+            cmb_empleado.ValueMember = "idtbm_empleado";
+            cmb_empleado.DisplayMember = "nombre_empleado";
             string query2 = "select nombre,departamento,tipo_incidente,comentario,fecha from incidente";
             dataGridView1.DataSource = ((x.consulta_DataGridView(query2)));
             }
@@ -62,7 +74,10 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
         {
            
         }
-
+        /***************************************************************
+        DESCRIPCION:  
+         
+         ***************************************************************/
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
         
@@ -83,7 +98,7 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
                 dict.Add("fecha", dtpfecha.Value.Date.ToString("yyy-MM-dd HH:mm"));
 
                 i3nRiqJson x4 = new i3nRiqJson();
-                string query4 = "select idtbm_empleado from tbm_empleado where nombre_empleado='" + comboBox1.Text + "'";
+                string query4 = "select idtbm_empleado from tbm_empleado where nombre_empleado='" + cmb_empleado.Text + "'";
                 System.Collections.ArrayList array = x4.consultar(query4);
 
 
@@ -154,7 +169,7 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            cargar();
+            cargarempleados();
 
         }
 

@@ -259,6 +259,7 @@
             this.pictureBox3.TabIndex = 59;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Tag = "4";
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox4
             // 

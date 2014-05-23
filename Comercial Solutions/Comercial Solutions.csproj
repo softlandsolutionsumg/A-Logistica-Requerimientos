@@ -58,11 +58,23 @@
     <Compile Include="Forms\Areas\Logistica\beta3.designer.cs">
       <DependentUpon>beta3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Areas\Logistica\frm_editarempleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Areas\Logistica\frm_editarempleado.Designer.cs">
+      <DependentUpon>frm_editarempleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Areas\Logistica\frm_editarmanejoincidente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Areas\Logistica\frm_editarmanejoincidente.Designer.cs">
       <DependentUpon>frm_editarmanejoincidente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Areas\Logistica\frm_editarmanejosoporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Areas\Logistica\frm_editarmanejosoporte.Designer.cs">
+      <DependentUpon>frm_editarmanejosoporte.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Areas\Logistica\frm_eliminarempleado.cs">
       <SubType>Form</SubType>
@@ -147,8 +159,14 @@
     <EmbeddedResource Include="Forms\Areas\Logistica\beta3.resx">
       <DependentUpon>beta3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Areas\Logistica\frm_editarempleado.resx">
+      <DependentUpon>frm_editarempleado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Areas\Logistica\frm_editarmanejoincidente.resx">
       <DependentUpon>frm_editarmanejoincidente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Areas\Logistica\frm_editarmanejosoporte.resx">
+      <DependentUpon>frm_editarmanejosoporte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Areas\Logistica\frm_eliminarempleado.resx">
       <DependentUpon>frm_eliminarempleado.cs</DependentUpon>

@@ -151,5 +151,11 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
             frm_eliminarmanejosoporte x = new frm_eliminarmanejosoporte();
             x.Show();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            frm_editarmanejosoporte x = new frm_editarmanejosoporte();
+            x.Show();
+        }
     }
 }

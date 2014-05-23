@@ -93,5 +93,11 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
             frm_eliminarempleado x = new frm_eliminarempleado();
             x.Show();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            frm_editarempleado x = new frm_editarempleado();
+            x.Show();
+        }
     }
 }
