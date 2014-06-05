@@ -31,14 +31,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbm_incidente = new System.Windows.Forms.ComboBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -76,13 +74,13 @@
             this.dataGridView1.Size = new System.Drawing.Size(569, 143);
             this.dataGridView1.TabIndex = 50;
             // 
-            // comboBox1
+            // cbm_incidente
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(70, 28);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(191, 24);
-            this.comboBox1.TabIndex = 48;
+            this.cbm_incidente.FormattingEnabled = true;
+            this.cbm_incidente.Location = new System.Drawing.Point(70, 28);
+            this.cbm_incidente.Name = "cbm_incidente";
+            this.cbm_incidente.Size = new System.Drawing.Size(191, 24);
+            this.cbm_incidente.TabIndex = 48;
             // 
             // pictureBox6
             // 
@@ -97,19 +95,6 @@
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Tag = "1";
             this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::Comercial_Solutions.Properties.Resources.refresh;
-            this.pictureBox2.Location = new System.Drawing.Point(382, 5);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(51, 47);
-            this.pictureBox2.TabIndex = 52;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Tag = "5";
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox4
             // 
@@ -143,11 +128,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbm_incidente);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frm_eliminarmanejosoporte";
             this.Opacity = 0.9D;
@@ -156,7 +140,6 @@
             this.Load += new System.EventHandler(this.frm_eliminarmanejosoporte_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -169,10 +152,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbm_incidente;
     }
 }

@@ -1,4 +1,14 @@
-﻿using System;
+﻿
+/***************************************************************
+NOMBRE:Formulario eliminar empleados
+FECHA:21/05/2014
+CREADOR:Eduardo Otoniel Tumax Sulecio
+DESCRIPCIÓN:Elimina registros de empleados.
+DETALLE:Busca y elimina registros.
+MODIFICACIÓN:22/05/2014
+***************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -30,7 +40,7 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
 
 
             i3nRiqJson x4 = new i3nRiqJson();
-            string query4 = "select Idtbm_empleado from tbm_empleado  where nombre_empleado='" + comboBox1.Text + "'";
+            string query4 = "select Idtbm_empleado from tbm_empleado  where nombre_empleado='" + cbm_empleado.Text + "'";
             System.Collections.ArrayList array = x4.consultar(query4);
 
 
@@ -50,7 +60,7 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
         }
         public void cargargrid(){
              i3nRiqJson x = new i3nRiqJson();
-             string query2 = "select nombre_empleado,telefono_empleado,direccion_empleado,salario_empleado,Documento_identificacion_empleado from tbm_empleado where nombre_empleado='" + comboBox1.Text + "'";
+             string query2 = "select nombre_empleado,telefono_empleado,direccion_empleado,salario_empleado,Documento_identificacion_empleado from tbm_empleado where nombre_empleado='" + cbm_empleado.Text + "'";
             dataGridView1.DataSource = ((x.consulta_DataGridView(query2)));
             }
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -68,10 +78,10 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
         }
        public void cargar(){
            i3nRiqJson x2 = new i3nRiqJson();
-           string query = "SELECT 	idtbm_empleado,nombre_empleado FROM tbm_empleado";
-            comboBox1.DataSource = ((x2.consulta_DataGridView(query)));
-            comboBox1.ValueMember = "idtbm_empleado";
-            comboBox1.DisplayMember = "nombre_empleado";
+           string query = "SELECT 	idtbm_proveedor,nombre_proveedor FROM tbm_acpro";
+            cbm_empleado.DataSource = ((x2.consulta_DataGridView(query)));
+            cbm_empleado.ValueMember = "idtbm_proveedor";
+            cbm_empleado.DisplayMember = "nombre_proveedor";
        }   
 
         private void frm_eliminarempleado_Load(object sender, EventArgs e)

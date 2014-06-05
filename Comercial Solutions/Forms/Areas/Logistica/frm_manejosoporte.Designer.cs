@@ -30,7 +30,7 @@
         {
             this.dtpfecha = new System.Windows.Forms.DateTimePicker();
             this.label9 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmb_empleado = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -43,7 +43,7 @@
             this.txtnombre = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cmb_incidente = new System.Windows.Forms.ComboBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -75,13 +75,13 @@
             this.label9.TabIndex = 71;
             this.label9.Text = "Elija Empleado";
             // 
-            // comboBox1
+            // cmb_empleado
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(403, 76);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 74;
+            this.cmb_empleado.FormattingEnabled = true;
+            this.cmb_empleado.Location = new System.Drawing.Point(403, 76);
+            this.cmb_empleado.Name = "cmb_empleado";
+            this.cmb_empleado.Size = new System.Drawing.Size(121, 24);
+            this.cmb_empleado.TabIndex = 74;
             // 
             // dataGridView1
             // 
@@ -187,14 +187,14 @@
             this.label7.TabIndex = 76;
             this.label7.Text = "Elija Incidente";
             // 
-            // comboBox2
+            // cmb_incidente
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(530, 76);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 24);
-            this.comboBox2.TabIndex = 77;
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            this.cmb_incidente.FormattingEnabled = true;
+            this.cmb_incidente.Location = new System.Drawing.Point(530, 76);
+            this.cmb_incidente.Name = "cmb_incidente";
+            this.cmb_incidente.Size = new System.Drawing.Size(121, 24);
+            this.cmb_incidente.TabIndex = 77;
+            this.cmb_incidente.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // pictureBox6
             // 
@@ -280,11 +280,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(741, 420);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.cmb_incidente);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.dtpfecha);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmb_empleado);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -320,7 +320,7 @@
 
         private System.Windows.Forms.DateTimePicker dtpfecha;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmb_empleado;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
@@ -339,6 +339,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cmb_incidente;
     }
 }

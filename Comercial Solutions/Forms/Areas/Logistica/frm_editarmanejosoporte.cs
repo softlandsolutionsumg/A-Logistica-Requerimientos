@@ -1,4 +1,12 @@
-﻿using System;
+﻿/***************************************************************
+NOMBRE:Formulario editar soporte
+FECHA:21/05/2014
+CREADOR:Eduardo Otoniel Tumax Sulecio
+DESCRIPCIÓN:Edita registros de soporte.
+DETALLE:Busca y edita registros.
+MODIFICACIÓN:22/05/2014
+***************************************************************/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

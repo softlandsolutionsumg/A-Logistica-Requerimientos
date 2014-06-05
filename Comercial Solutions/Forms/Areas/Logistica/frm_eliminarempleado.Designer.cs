@@ -31,7 +31,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbm_empleado = new System.Windows.Forms.ComboBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -75,13 +75,13 @@
             this.dataGridView1.Size = new System.Drawing.Size(569, 143);
             this.dataGridView1.TabIndex = 50;
             // 
-            // comboBox1
+            // cbm_empleado
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(70, 28);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(191, 24);
-            this.comboBox1.TabIndex = 48;
+            this.cbm_empleado.FormattingEnabled = true;
+            this.cbm_empleado.Location = new System.Drawing.Point(70, 28);
+            this.cbm_empleado.Name = "cbm_empleado";
+            this.cbm_empleado.Size = new System.Drawing.Size(191, 24);
+            this.cbm_empleado.TabIndex = 48;
             // 
             // pictureBox6
             // 
@@ -146,7 +146,7 @@
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbm_empleado);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frm_eliminarempleado";
             this.Opacity = 0.9D;
@@ -172,6 +172,6 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbm_empleado;
     }
 }

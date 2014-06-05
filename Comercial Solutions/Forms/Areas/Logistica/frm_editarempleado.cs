@@ -1,4 +1,14 @@
-﻿using System;
+﻿
+/***************************************************************
+NOMBRE:Formulario editar empleados
+FECHA:21/05/2014
+CREADOR:Eduardo Otoniel Tumax Sulecio
+DESCRIPCIÓN:Edita registros de empleado.
+DETALLE:Busca y edita registros.
+MODIFICACIÓN:22/05/2014
+***************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,7 +35,7 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             i3nRiqJson x4 = new i3nRiqJson();
-            string query4 = "select idtbm_empleado from tbm_empleado where nombre_empleado='" + comboBox1.Text + "'";
+            string query4 = "select idtbm_empleado from tbm_empleado where nombre_empleado='" + cmb_empleado.Text + "'";
             System.Collections.ArrayList array = x4.consultar(query4);
 
 
@@ -59,7 +69,7 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             i3nRiqJson x4 = new i3nRiqJson();
-            string query4 = "select nombre_empleado,Telefono_Empleado,Direccion_Empleado,Salario_Empleado,Documento_identificacion_empleado from tbm_empleado where nombre_empleado='" + comboBox1.Text + "'";
+            string query4 = "select nombre_empleado,Telefono_Empleado,Direccion_Empleado,Salario_Empleado,Documento_identificacion_empleado from tbm_empleado where nombre_empleado='" + cmb_empleado.Text + "'";
             System.Collections.ArrayList array = x4.consultar(query4);
 
 
@@ -74,13 +84,14 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
                 // Console.WriteLine("VIENEN: "+dic["employee_name"]);
 
             }
+            cargarempleado();
         }
         public void cargarempleado(){
             i3nRiqJson x2 = new i3nRiqJson();
             string query = "select idtbm_empleado,nombre_empleado from tbm_empleado";
-                 comboBox1.DataSource = ((x2.consulta_DataGridView(query)));
-                 comboBox1.ValueMember = "idtbm_empleado";
-                 comboBox1.DisplayMember = "nombre_empleado";
+                 cmb_empleado.DataSource = ((x2.consulta_DataGridView(query)));
+                 cmb_empleado.ValueMember = "idtbm_empleado";
+                 cmb_empleado.DisplayMember = "nombre_empleado";
         }
         private void frm_editarempleado_Load(object sender, EventArgs e)
         {
@@ -90,7 +101,7 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            cargarempleado();
+           
 
         }
 

@@ -132,6 +132,7 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
           );
 
             }
+            cargarempleados();
 
         }
 

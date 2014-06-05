@@ -1,4 +1,14 @@
-﻿using System;
+﻿
+/***************************************************************
+NOMBRE:Formulario Manejo De Soporte
+FECHA:21/05/2014
+CREADOR:Eduardo Otoniel Tumax Sulecio
+DESCRIPCIÓN:Realiza inserciones de soportes nuevos.
+DETALLE:Contiene enlances para eliminar y editar soportes.
+MODIFICACIÓN:22/05/2014
+***************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -42,15 +52,15 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
             i3nRiqJson x3 = new i3nRiqJson();
 
             string query = "SELECT idtbm_empleado,nombre_empleado FROM tbm_empleado";
-            comboBox1.DataSource = ((x2.consulta_DataGridView(query)));
-            comboBox1.ValueMember = "idtbm_empleado";
-            comboBox1.DisplayMember = "nombre_empleado";
+            cmb_empleado.DataSource = ((x2.consulta_DataGridView(query)));
+            cmb_empleado.ValueMember = "idtbm_empleado";
+            cmb_empleado.DisplayMember = "nombre_empleado";
 
 
             string query3 = "SELECT Idtbm_incidente,nombre FROM incidente";
-            comboBox2.DataSource = ((x3.consulta_DataGridView(query3)));
-            comboBox2.ValueMember = "Idtbm_incidente";
-            comboBox2.DisplayMember = "nombre";
+            cmb_incidente.DataSource = ((x3.consulta_DataGridView(query3)));
+            cmb_incidente.ValueMember = "Idtbm_incidente";
+            cmb_incidente.DisplayMember = "nombre";
 
             string query2 = "select nombre,departamento,tipo_soporte,comentario,fecha from soporte";
             dataGridView1.DataSource = ((x.consulta_DataGridView(query2)));
@@ -81,7 +91,7 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
 
 
                 i3nRiqJson x4 = new i3nRiqJson();
-                string query4 = "select idtbm_empleado from tbm_empleado where nombre_empleado='" + comboBox1.Text + "'";
+                string query4 = "select idtbm_empleado from tbm_empleado where nombre_empleado='" + cmb_empleado.Text + "'";
                 System.Collections.ArrayList array = x4.consultar(query4);
                 foreach (Dictionary<string, string> dic in array)
                 {
@@ -100,7 +110,7 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
 
 
                 i3nRiqJson x5 = new i3nRiqJson();
-                string query5 = "select idtbm_incidente from incidente where nombre='" + comboBox2.Text + "'";
+                string query5 = "select idtbm_incidente from incidente where nombre='" + cmb_incidente.Text + "'";
                 System.Collections.ArrayList array5 = x5.consultar(query5);
                 foreach (Dictionary<string, string> dic2 in array5)
                 {
@@ -129,6 +139,7 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
           );
 
             }
+            cargar();
 
         }
 

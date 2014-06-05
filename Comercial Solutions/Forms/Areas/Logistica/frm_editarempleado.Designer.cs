@@ -38,16 +38,14 @@
             this.txtsalario = new System.Windows.Forms.TextBox();
             this.txtdireccion = new System.Windows.Forms.TextBox();
             this.txtnombre = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmb_empleado = new System.Windows.Forms.ComboBox();
             this.txttelefono = new System.Windows.Forms.TextBox();
             this.txtdi = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
@@ -138,13 +136,13 @@
             this.txtnombre.Size = new System.Drawing.Size(166, 22);
             this.txtnombre.TabIndex = 70;
             // 
-            // comboBox1
+            // cmb_empleado
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(41, 40);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(262, 24);
-            this.comboBox1.TabIndex = 67;
+            this.cmb_empleado.FormattingEnabled = true;
+            this.cmb_empleado.Location = new System.Drawing.Point(41, 40);
+            this.cmb_empleado.Name = "cmb_empleado";
+            this.cmb_empleado.Size = new System.Drawing.Size(262, 24);
+            this.cmb_empleado.TabIndex = 67;
             // 
             // txttelefono
             // 
@@ -187,19 +185,6 @@
             this.pictureBox1.Tag = "1";
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::Comercial_Solutions.Properties.Resources.refresh;
-            this.pictureBox2.Location = new System.Drawing.Point(228, 217);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(51, 47);
-            this.pictureBox2.TabIndex = 69;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Tag = "5";
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
             // pictureBox4
             // 
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -233,9 +218,8 @@
             this.Controls.Add(this.txtsalario);
             this.Controls.Add(this.txtdireccion);
             this.Controls.Add(this.txtnombre);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmb_empleado);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frm_editarempleado";
             this.Opacity = 0.9D;
@@ -244,7 +228,6 @@
             this.Load += new System.EventHandler(this.frm_editarempleado_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -264,9 +247,8 @@
         private System.Windows.Forms.TextBox txtsalario;
         private System.Windows.Forms.TextBox txtdireccion;
         private System.Windows.Forms.TextBox txtnombre;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmb_empleado;
         private System.Windows.Forms.TextBox txttelefono;
         private System.Windows.Forms.TextBox txtdi;
         private System.Windows.Forms.PictureBox pictureBox3;

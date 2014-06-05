@@ -41,14 +41,12 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txtdi = new System.Windows.Forms.TextBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -84,6 +82,7 @@
             // 
             // txtdireccion
             // 
+            this.txtdireccion.Enabled = false;
             this.txtdireccion.Location = new System.Drawing.Point(17, 184);
             this.txtdireccion.Name = "txtdireccion";
             this.txtdireccion.Size = new System.Drawing.Size(428, 22);
@@ -91,6 +90,7 @@
             // 
             // txttelefono
             // 
+            this.txttelefono.Enabled = false;
             this.txttelefono.Location = new System.Drawing.Point(17, 229);
             this.txttelefono.Name = "txttelefono";
             this.txttelefono.Size = new System.Drawing.Size(125, 22);
@@ -98,6 +98,7 @@
             // 
             // txtnombre
             // 
+            this.txtnombre.Enabled = false;
             this.txtnombre.Location = new System.Drawing.Point(14, 139);
             this.txtnombre.Name = "txtnombre";
             this.txtnombre.Size = new System.Drawing.Size(431, 22);
@@ -114,6 +115,7 @@
             // 
             // txtsalario
             // 
+            this.txtsalario.Enabled = false;
             this.txtsalario.Location = new System.Drawing.Point(147, 229);
             this.txtsalario.Name = "txtsalario";
             this.txtsalario.Size = new System.Drawing.Size(146, 22);
@@ -151,6 +153,7 @@
             // 
             // txtdi
             // 
+            this.txtdi.Enabled = false;
             this.txtdi.Location = new System.Drawing.Point(299, 229);
             this.txtdi.Name = "txtdi";
             this.txtdi.Size = new System.Drawing.Size(146, 22);
@@ -167,19 +170,7 @@
             this.pictureBox5.TabIndex = 70;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Tag = "2";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::Comercial_Solutions.Properties.Resources.refresh;
-            this.pictureBox2.Location = new System.Drawing.Point(328, 49);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(67, 62);
-            this.pictureBox2.TabIndex = 73;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Tag = "5";
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox1
             // 
@@ -243,7 +234,6 @@
             this.Controls.Add(this.txtdi);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox4);
@@ -263,7 +253,6 @@
             this.Load += new System.EventHandler(this.frm_empleado_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -285,7 +274,6 @@
         private System.Windows.Forms.TextBox txtsalario;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;

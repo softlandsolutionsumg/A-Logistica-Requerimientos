@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbm_incidente = new System.Windows.Forms.ComboBox();
             this.dtpfecha = new System.Windows.Forms.DateTimePicker();
             this.label9 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
@@ -55,13 +55,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // cbm_incidente
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(40, 26);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(191, 24);
-            this.comboBox1.TabIndex = 46;
+            this.cbm_incidente.FormattingEnabled = true;
+            this.cbm_incidente.Location = new System.Drawing.Point(40, 26);
+            this.cbm_incidente.Name = "cbm_incidente";
+            this.cbm_incidente.Size = new System.Drawing.Size(191, 24);
+            this.cbm_incidente.TabIndex = 46;
             // 
             // dtpfecha
             // 
@@ -273,7 +273,7 @@
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbm_incidente);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frm_editarmanejoincidente";
             this.Opacity = 0.9D;
@@ -295,7 +295,7 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbm_incidente;
         private System.Windows.Forms.DateTimePicker dtpfecha;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.ComboBox comboBox2;

@@ -1,4 +1,14 @@
-﻿using System;
+﻿
+/***************************************************************
+NOMBRE:Formulario Ingreso Empleados
+FECHA:21/05/2014
+CREADOR:Eduardo Otoniel Tumax Sulecio
+DESCRIPCIÓN:Realiza inserciones de empleados
+DETALLE:Contiene enlances para eliminar y editar empleados.
+MODIFICACIÓN:22/05/2014
+***************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -39,6 +49,7 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
         }
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            
             if ((txtnombre.Text.Equals("")) || (txttelefono.Text.Equals("")))
             {
 
@@ -75,6 +86,8 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
           );
 
             }
+
+            cargar();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -98,6 +111,17 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
         {
             frm_editarempleado x = new frm_editarempleado();
             x.Show();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+  txtnombre.Enabled=true;
+
+            txttelefono.Enabled=true;
+          txtdireccion.Enabled=true;
+            txtsalario.Enabled=true;
+            txtdi.Enabled = true;
+
         }
     }
 }
