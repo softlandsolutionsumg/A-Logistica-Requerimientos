@@ -208,6 +208,7 @@
             this.pictureBox6.TabIndex = 75;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Tag = "1";
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox5
             // 
@@ -301,6 +302,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label3);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frm_manejosoporte";
             this.Text = "frm_manejosoporte";
             this.Load += new System.EventHandler(this.frm_manejosoporte_Load);

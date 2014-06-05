@@ -247,6 +247,7 @@
             this.Controls.Add(this.txtdireccion);
             this.Controls.Add(this.txttelefono);
             this.Controls.Add(this.txtnombre);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frm_empleado";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_empleado";

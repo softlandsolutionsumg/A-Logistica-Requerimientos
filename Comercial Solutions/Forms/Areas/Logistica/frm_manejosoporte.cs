@@ -168,5 +168,10 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
             frm_editarmanejosoporte x = new frm_editarmanejosoporte();
             x.Show();
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }

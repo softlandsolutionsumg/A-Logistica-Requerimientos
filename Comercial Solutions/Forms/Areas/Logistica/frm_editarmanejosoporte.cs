@@ -34,5 +34,10 @@ namespace Comercial_Solutions.Forms.Areas.Logistica
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }
